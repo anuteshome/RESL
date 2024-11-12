@@ -1,0 +1,289 @@
+.navbar{
+    background-color: rgb(71, 17, 17);
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 1.5rem;
+}
+ul li a{
+    color: white;
+    font-size: 2rem;
+}
+.navbar-nav .nav-link{
+    color: white;
+}
+.navbar-nav .nav-link:hover {
+    color: #cccccc; /* Optional: A lighter color on hover */
+  }
+.home{
+    color: white;
+}
+.hero{
+    background-color: antiquewhite;
+    height: 600px;
+    padding-left: 3.5rem;
+}
+.fbtn{
+    background-color: rgb(71, 17, 17);
+    border: none;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+.fbtn:hover{
+    background-color:black
+}
+.fimg{
+    margin-left: 8rem;
+
+}
+.h1h{
+    font-size: 3.5rem;
+    color: black;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.fp{
+    font-size: 1.2rem;
+    /* font-weight: bold; */
+    color: black;
+}
+
+/* about */
+
+.simg{
+    width: 600px;
+    color: antiquewhite;
+}
+.about{
+    background-color: rgb(71, 17, 17);
+    height: 600px;
+    margin-left: -4rem;
+    width: 222vh;
+}
+.about-title{
+    color: wheat;
+    font-size: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.about-p{
+    font-size: 1.2rem;
+    color: wheat;
+
+}
+.about-btn{
+    background-color: antiquewhite;
+    border: none;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+    color: rgb(71, 17, 17);
+}
+.about-btn:hover{
+    background-color: rgb(71, 17, 17);
+    border: 1px wheat solid;
+}
+/* testimonial */
+.testimonial {
+    height: 600px;
+    background-color: antiquewhite;
+    width: 220vh;
+    margin-left: -4rem;
+    margin-top: 0rem;
+    padding-top: 1rem;
+  }
+  
+  .testimonial h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 600px;
+    margin-top: 1rem;
+    background-color: antiquewhite;
+    padding-top: 5rem;
+    width: 100%;
+    padding-left: 4rem;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  .card1, .card2, .card3 {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(71, 17, 17);
+    border-radius: 10px;
+  }
+  
+.test_p{
+    color: antiquewhite;
+    margin-top: 3rem;
+    text-align: center;
+}
+.img1{
+    background-color: antiquewhite;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+margin-left: 7rem;
+margin-top: 3rem;
+}
+.contact{
+    height: 900px;
+    background-color: rgb(71, 17, 17);
+    margin-top: -3rem;
+    margin-left: -3.5rem;
+    padding-left: 3rem;
+    padding-top: 15rem;
+}
+
+.message{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contact_title{
+    color: antiquewhite;
+    text-align: center;
+
+}
+.m1{
+    background-color: antiquewhite;
+    height: 550px;
+    width: 450px;
+    border-radius: 10px;
+    margin-left: 7rem;
+    padding-left: 3rem;
+ 
+}
+.get{
+    text-align: center;
+    margin-top: 2rem;
+}
+.m2{
+    background-color: antiquewhite;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+input{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+
+}
+
+textarea{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 100px;
+}
+.btn3{
+    background-color: rgb(71, 17, 17);
+    border: none;
+    padding: 10px 30px 10px 30px;
+    color: antiquewhite;
+    border-radius: 10px;
+    margin-left: 6rem;
+}
+
+.con{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.add{
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 3rem;
+}
+.foot_img{
+    width:150px;
+    height: auto;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+.foot_nav a{
+color: rgb(71, 17, 17);
+text-decoration: none;
+font-size: 1.2rem;
+padding-bottom: 1.5rem;
+font-weight: bold;
+margin-left: 8rem;
+
+}
+.conn{
+    margin-left: 3rem;
+}
+.ad{
+    margin-left:2rem;
+    margin-top: 2rem;
+}
+@media only screen and (max-width:768px) {
+    .fimg{
+        display: none;
+    }
+}
+.foot{
+    background-color: antiquewhite;
+    height: 300px;
+    margin-left: -3.5rem;
+}
+.login{
+    padding: 10px 30px 10px 30px;
+background-color: antiquewhite;
+color: rgb(71,17,17);
+}
+/* Customize the appearance of nav links */
+/* Navbar styling */
+.navbar {
+    background-color: rgb(71, 17, 17);
+    padding-bottom: 1.5rem;
+}
+
+/* Brand styling */
+.navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* Navigation link styling */
+.head_nav {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.head_nav:hover {
+    color: #cccccc;
+    background-color: #e2e6ea;
+    border-radius: 5px;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
