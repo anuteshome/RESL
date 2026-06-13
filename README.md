@@ -1,1 +1,1 @@
-# RESL Project branched
+# RESL Project branches.
